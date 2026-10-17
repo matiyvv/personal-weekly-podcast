@@ -1,0 +1,14 @@
+interface:
+  display_name: Personal Weekly Podcast
+  short_description: 'Власний подкаст: від інтересів до щотижневого аудіо'
+  default_prompt: Використай $personal-weekly-podcast, щоб допомогти мені створити
+    власний щотижневий подкаст; почни з короткого інтерв’ю про мої інтереси.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
