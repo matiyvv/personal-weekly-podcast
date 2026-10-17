@@ -1,5 +1,7 @@
 # Personal Weekly Podcast
 
+**English (EN)** | [Українська (UA)](README_UA.md)
+
 Create your own weekly or monthly podcast about what matters most to you.
 
 A reusable AI skill that starts with your interests, researches the questions worth your attention, and turns the findings into a coherent script and a guided audio handoff. Built for personal learning, useful decisions, or both — not a generic news digest.
@@ -11,7 +13,7 @@ A reusable AI skill that starts with your interests, researches the questions wo
 - A review script, clean narration text, a short voice test, and instructions for getting an MP3.
 - A saved format, voice preset, and episode state to continue next time.
 
-The suggested pilot is 25–30 minutes. You choose the language, length, topics, and frequency. Monthly does not mean four times longer. Instructions are written in Ukrainian; the skill tells the assistant to converse in your language and agree the narration language separately.
+The suggested pilot is 25–30 minutes. You choose the language, length, topics, and frequency. Monthly does not mean four times longer. The core skill instructions are written in Ukrainian; the skill tells the assistant to converse in your language and agree the narration language separately. This user guide is available in English and Ukrainian.
 
 **This is a workflow, not a standalone podcast app or a speech engine.** Current research needs web access. Audio generation needs an available, authorized TTS service; otherwise the skill gives you a manual ElevenLabs Studio route. There is no automatic subscription, recurring job, public feed, or paid API call just from installing it.
 
@@ -49,10 +51,6 @@ See the [official OpenAI skills guide](https://learn.chatgpt.com/docs/build-skil
 ## First-run prompt
 
 > Use the Personal Weekly Podcast skill to help me create my own weekly or monthly podcast. Start with a short interview about my interests, what I want to understand, my preferred language, listening time, and frequency. Do not research a full episode or spend money until we agree the format.
-
-Українською:
-
-> Допоможи створити мій власний щотижневий або щомісячний подкаст. Почни з короткого інтерв'ю про мої інтереси, мову, тривалість і частоту. До погодження формату не запускай велике дослідження й платне озвучення.
 
 For a later edition:
 
